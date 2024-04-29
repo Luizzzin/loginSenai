@@ -11,7 +11,7 @@ export default function Bem_Vindo() {
 
     return (
         <Animatable.View delay={100} animation='fadeInUp' style={styles.container}>
-            <StatusBar backgroundColor={"#FFF"}/>
+           
             <View style={styles.containerLogo}>
                 <Animatable.Image
                     delay={610}

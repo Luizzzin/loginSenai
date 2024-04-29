@@ -15,7 +15,7 @@ import {
 export default function Acesso() {
   return (
     <KeyboardAvoidingView style={{ flex: 1 }}>
-     
+      <StatusBar backgroundColor={"#880000"}/>
       <TouchableWithoutFeedback onPress={() => Keyboard.dismiss()}>
         <Animatable.View animation="fadeInUp" delay={200} style={styles.container}>
           <Animatable.View animation="fadeInLeft" delay={610} style={styles.containerHeader}>
